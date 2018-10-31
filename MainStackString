@@ -1,0 +1,16 @@
+package TUGAS_ASD3;
+
+public class MainStackString {
+public static void main(String[] args) {
+		classstackstring st= new classstackstring();
+		
+		st.push("YUDHISTHIRA");
+    st.push("YUDY");
+		st.push("TAPALANG");
+		st.push("MAMUJU");
+		
+		String d0=st.pop();
+		System.out.println(d0);
+		st.cetak();
+	}
+}
