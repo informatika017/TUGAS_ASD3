@@ -1,0 +1,16 @@
+package TUGAS_ASD3;
+
+import sun.misc.Queue;
+public class MainQueueString {
+
+	public static void main(String[] args) {
+		QueueString q = new QueueString();
+		q.cetak();
+		
+		q.insert("YUDHISTHIRA");q.cetak();
+		q.insert("YUDI");q.cetak();
+		q.insert("TAPALANG");q.cetak();
+		q.insert("MAMUJU");q.cetak();
+
+	}
+}
