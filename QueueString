@@ -1,0 +1,25 @@
+package TUGAS_ASD3;
+import java.util.ArrayList;
+
+public class QueueString {
+	ArrayList<String> kelase = new ArrayList<String>();
+	int yudi = -1;
+
+	public void insert(String value) {
+		yudi++;
+		kelase.add(yudi,value);
+	}
+	public String get() {
+		String value = "KOSONG";
+		if(yudi>-1) {
+			value = kelase.get(0);
+			kelase.remove(0);
+		  yudi--;
+		}
+		return value;
+		
+	}
+	public void cetak() {
+		System.out.println("ECOR : "+yudi+" > KELAS A: "+kelase.toString());
+	}
+}
