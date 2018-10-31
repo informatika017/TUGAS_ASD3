@@ -1,0 +1,14 @@
+package TUGAS_ASD3;
+import java.util.ArrayList;
+
+public class ArrayListInteger {
+
+	public static void main(String[] args) {
+		ArrayList<Integer>lint = new ArrayList<Integer>();
+		lint.add(4);
+		lint.add(6);
+		lint.add(8);
+		System.out.println("SODARAA"+lint.toString());
+		System.out.println("SIZE : "+lint.size());	
+	}
+}
